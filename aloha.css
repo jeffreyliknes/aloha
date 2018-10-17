@@ -1,135 +1,9 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-/* ^ RESET ^ */
-
-/* Top Navigation */
-
+/* Border-box to ensure all borders sizes will not interfere with eachother  */
 * {
   box-sizing: border-box;
 }
+/* Top Navigation and logos */
 
 .logo-icon {
   display: flex;
@@ -237,6 +111,7 @@ table {
 
 .hand-crafted {
   text-align: center;
+  color: #2d2d2d;
 }
 
 .text-box {
@@ -244,6 +119,7 @@ table {
   text-align: center;
   margin: 0 auto;
   padding: 4rem 2%;
+  font-size: 14px;
 }
 
 .text-box h2 {
@@ -263,6 +139,7 @@ table {
   font-family: "raleway", sans-serif;
   font-weight: 300;
   line-height: 2rem;
+  font-size: 14px;
 }
 
 /* Section: 6 wrapped pictures  */
@@ -383,7 +260,7 @@ table {
 
 /* Carousel */
 
-.producrs-title {
+.products-title {
   font-family: "Playfair Display", serif;
 }
 
@@ -393,7 +270,6 @@ table {
 }
 
 .carousel-container {
-  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -402,6 +278,7 @@ table {
   font-size: 2.2rem;
   font-style: italic;
   margin-bottom: 1.5rem;
+  color: #2d2d2d;
 }
 
 .products-title strong {
@@ -424,13 +301,16 @@ table {
 .article {
   color: #969696;
   margin-bottom: 1.5rem;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: "raleway";
 }
 
 .price {
   color: #969696;
   margin-bottom: 1.5rem;
   font-weight: 500;
+  font-family: "raleway";
+  font-size: 11px;
 }
 
 /* form section */
@@ -445,38 +325,6 @@ table {
   background-position: bottom;
   margin-bottom: 10px;
   padding: 4rem 0;
-  
-}
-
-input [type="email"] {
-  color: #2d2d2d;
-  font-family: "Raleway" sans-serif;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 2.2;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 0.8rem;
-  
-}
-
-.input[type="submit"] {
-  background-color: #e2574c;
-  color: #fff;
-  cursor: pointer;
-  font-weight: 400;
-  padding: 0.25rem 1.5rem;
-  position: absolute;
-  right: 0.25rem;
-  top: 0.25rem;
-}
-
-.input[type="submit"]:hover {
-  background-color: #e2574c;
-}
-
-.form-submit {
-  margin-top: 1.5rem;
 }
 
 .wave-background {
@@ -503,7 +351,7 @@ input [type="email"] {
 
 .updates p {
   font-family: "raleway", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 2;
   font-weight: 100;
   text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
@@ -523,19 +371,24 @@ input [type="email"] {
 }
 
 input[type="email"] {
-  padding: 0.5rem 1.75rem;
+  padding: 0.9rem 1.75rem;
   padding-right: 150px;
   width: 100%;
+  font-size: 14px;
+  font-family: "raleway";
+  font-weight: 100;
 }
 
 input[type="submit"] {
   background-color: #e2574c;
   color: #fff;
   cursor: pointer;
-  font-weight: 700;
-  padding: 0.25rem 1.5rem;
+  font-family: "raleway";
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
   position: absolute;
-  right: 0.25rem;
+  right: 0.15rem;
   top: 0.25rem;
 }
 
@@ -714,7 +567,7 @@ input[type="submit"] {
   }
 
   .form-submit {
-    width: 70%;
+    width: 65%;
   }
 
   /* Footer */
@@ -771,9 +624,9 @@ input[type="submit"] {
 @media screen and (min-width: 1240px) {
   /* navigation and icons */
 
-  /* .banner-navigation {
+  .banner-navigation {
     max-width: 1240px;
-  } */
+  }
 
   .logo-icon img {
     max-width: 160px;
