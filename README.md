@@ -1,8 +1,9 @@
 
 
+![Getting Started](images/screenshot.png)
 
 
-<img href="/images/Screen Shot 2018-12-02 at 2.01.07 PM.png">
+
 
 
 
