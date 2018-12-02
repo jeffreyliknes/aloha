@@ -112,8 +112,8 @@
 
 .banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.2)),
-    url(images/banner-girl.png) no-repeat center 60px,
-    url(images/flower-bkgd.jpg) repeat-x top;
+    url(/images/banner-girl.png) no-repeat center 60px,
+    url(/images/flower-bkgd.jpg) repeat-x top;
   background-size: cover, 150px 365px, cover;
   height: 400px;
 }

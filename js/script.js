@@ -1,3 +1,8 @@
+$(function() {
+
+$(function() {
+
+
 // smooth scroll
 
 
@@ -55,3 +60,7 @@ $('a[href*="#"]')
       alert('Thank you for subscribing!');
     }
   });
+
+});
+
+});
